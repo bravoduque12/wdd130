@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/noto/specimen/Noto+Serif?query=serif&noto.query=serif+);
 body {
     font-family: paragraph-font();
     max-width: 960px;
@@ -10,8 +10,8 @@ body {
     --secondary-color: #44A1A0;
     --accent1-color: #78CDD7;
     --accent2-color: #247B7B;
-    --heading-font:  '', serif;
-    --paragraph-font: '', serif;
+    --heading-font:  'sans', serif;
+    --paragraph-font: 'noto', serif;
     --nav-background-color: #247B7B;
     --nav-link-color: #CF9893;
     --nav-hover-link-color:#7A5980;
@@ -35,4 +35,22 @@ header {
 }
 p {
     padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
 }
