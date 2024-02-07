@@ -56,7 +56,7 @@ img {
 p {
     padding: 10px;
 }
-header, .grid, footer {
+header, footer, .grid {
     max-width: 840px;
     margin: 0%;
 }
