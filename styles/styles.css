@@ -8,8 +8,8 @@
     margin: 1rem;
     border: 1px solid rgba(red, green, blue, alpha);
     padding: 1rem;
-    background-color:white;
-    color: rgb(199, 150, 150);
+    background-color:rgb(186, 171, 171);
+    color: rgb(2, 2, 2);
 }
 aside {
     position: relative;
@@ -18,8 +18,8 @@ aside {
 }
 aside h2 {
     position: absolute;
-    top: 20px;
-    left: 80px;
+    top: 15px;
+    left: 110px ;
 }
 section {
     display: flex;
