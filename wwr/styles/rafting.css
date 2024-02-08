@@ -1,32 +1,97 @@
 @import url(https://fonts.google.com/specimen/Montserrat);
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: paragraph-font();
+    max-width: 960px;
+    padding: 20px;
 }
 :root {
-    --main-color : blue;
-    --panne-padding : 5px 42px;
+    --primary-color: #0D5C63;
+    --secondary-color: #44A1A0;
+    --accent1-color: #78CDD7;
+    --accent2-color: #247B7B;
+    --heading-font:  'sans', serif;
+    --paragraph-font: 'noto', serif;
+    --nav-background-color: #247B7B;
+    --nav-link-color: #CF9893;
+    --nav-hover-link-color:#7A5980;
+    --nav-hover-background-color: #59656F;
 }
-div {
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+
+}
+.hero {
+    margin: 10px auto;
     position: relative;
 }
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
-}
-
-h1 {
-    position: absolute;
+    height: 100%;
     
 }
-article {
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px #7A5980;
     position: absolute;
-
-}
-article img  {
-    float:left;
-
+    top: 10px;
+    left: 400px;   
 }
 
+article {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+
+}
+.stats {
+    position: absolute;
+    bottom: 30px;
+    left: 650px;
+    padding: 0.65rem;
+	top: 0%;
+}
+
+.stats img {
+    width: auto;
+    height: 50%;
+}
+p {
+    
+}
