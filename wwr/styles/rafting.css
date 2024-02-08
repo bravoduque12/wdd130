@@ -93,5 +93,6 @@ article {
     height: 50%;
 }
 p {
-
+    position: absolute;
+ 
 }
