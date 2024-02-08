@@ -33,7 +33,7 @@ header {
 
 }
 p {
-    padding: 25px;
+    padding: 45px;
 }
 nav {
     background-color: var(--nav-background-color);
@@ -82,8 +82,8 @@ article {
 }
 .stats {
     position: absolute;
-    bottom: 30px;
-    left: 650px;
+    bottom: 0px;
+    left: 750px;
     padding: 0.65rem;
 	top: 0%;
 }
@@ -93,5 +93,5 @@ article {
     height: 50%;
 }
 p {
-    
+
 }
