@@ -106,7 +106,7 @@ article {
     margin: 0%;
 }
 header, footer, .grid {
-    max-width: 840;
+    max-width: 960px;
     margin: 0%;
 }
 .grid {
