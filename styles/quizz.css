@@ -13,7 +13,8 @@ body {
 }
 header {
     margin: 0 auto;
-    width: 650;
+    width: 650px;
+    align-items: left;
 }
 h1 {
     margin: 0 auto;
@@ -31,19 +32,13 @@ form {
 }
 fieldset {
     display: grid;
-    grid-gap: rem;
-    margin: rem;
+    grid-gap: 1rem;
+    margin: 1rem;
     border: px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     position: 0;
 }
-legend {
-    padding: rem;
-    color: navy;
-    font-size: 0.9em;
-    align-items: center;
-    position: 0;
-}
+
 
 label, input, button, select, textarea {
     font-family:'Times New Roman', Times, serif;
