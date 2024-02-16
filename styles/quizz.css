@@ -35,14 +35,14 @@ fieldset {
     margin: rem;
     border: px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    position: ;
+    position: 0;
 }
 legend {
     padding: rem;
     color: navy;
     font-size: 0.9em;
     align-items: center;
-    position:;
+    position: 0;
 }
 
 label, input, button, select, textarea {
@@ -82,4 +82,5 @@ footer {
     text-align: center;
     font-size: 0.9em;
     color: #777;
-    border-top: 1px solid #ccc;    
+    border-top: 1px solid #ccc; 
+}
