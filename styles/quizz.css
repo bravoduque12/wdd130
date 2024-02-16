@@ -57,6 +57,11 @@ input, select, textarea, button {
     padding: 0.5rem;
     font-size: 0.9rem;
 }
+input[type="How"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}    
 button {
     margin: 5rem;
     background-color: green;
